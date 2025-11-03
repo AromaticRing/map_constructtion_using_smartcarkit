@@ -29,7 +29,7 @@ Module	Function
 Arduino (map_arduino.ino)	Controls the ultrasonic sensor and servo motor, collects distance readings, and sends formatted data (angle,distance) to the Raspberry Pi.
 Raspberry Pi (map_rpi_program.py)	Reads serial data from the Arduino, converts polar coordinates to Cartesian coordinates, and displays a real-time occupancy grid map showing detected obstacles and free space.
 
-🚀 How It Works
+## 🚀 How It Works
 1️⃣ Arduino Side — Environment Scanning
 The servo rotates the ultrasonic sensor from 0° to 180°.
 
@@ -59,7 +59,7 @@ The map updates dynamically as new data arrives.
 
 When stopped (Ctrl + C), the final map is saved as lab8_map.csv.
 
-🧠 Code Explanation
+## 🧠 Code Explanation
 map_arduino.ino
 Initializes servo and ultrasonic pins.
 
@@ -84,7 +84,7 @@ Plots an occupancy grid using Matplotlib in real-time.
 
 Saves the final map to a .csv file when the program ends.
 
-🧪 Running the Project
+## 🧪 Running the Project
 Step 1: Setup Arduino
 Open map_arduino.ino in Arduino IDE.
 
@@ -106,7 +106,7 @@ A live visualization window will appear.
 
 Press Ctrl + C to stop and save the map to lab8_map.csv.
 
-🖼️ Output Example
+## 🖼️ Output Example
 Live View
 Real-time occupancy grid visualization with car position and obstacle markings.
 
@@ -114,9 +114,9 @@ Saved Output
 A CSV file representing the final grid map.
 
 📹 Demonstration Video
-📺 YouTube Demo: [your-video-link](https://youtu.be/u80rWFV1CQc)
+📺 YouTube Demo: [video-link](https://youtu.be/u80rWFV1CQc)
 
-👨‍💻 Authors
+## 👨‍💻 Authors
 Developed by:
 
 Anshul Dewangan
